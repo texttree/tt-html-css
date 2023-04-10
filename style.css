@@ -1,0 +1,41 @@
+button {
+  padding: 1rem 1.5rem;
+  border-radius: 0.3rem;
+  border: none;
+  background-color: #FFB703;
+  font-size: 1.1em;
+  color: #332416;
+}
+
+button:hover {
+  background-color: #e9a600;
+}
+
+button:active {
+  background-color: #cf9400;
+}
+
+.my-button {
+  display: inline-block;
+  background-color: #023047;
+  color: white;
+  padding: 0.7rem 1.2rem;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+  
+.my-button:hover {
+  background-color: #024d64;
+}
+
+.my-button:active {
+  background-color: #006d8e;
+}
+ /* добавить файл editor.config!! */
+::selection {
+  background-color: #FFB703;
+  color:#006d8e
+}

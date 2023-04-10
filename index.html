@@ -1,0 +1,61 @@
+
+<!-- сниппеты для быстрой работы "! + Tab" 
+но сначала лучше писать вручную, чтобы понимать, как всё устроено -->
+
+<!-- <!DOCTYPE html> - это объявление типа документа (Document Type Declaration, DTD) для HTML-документа, которое указывает браузеру, какой стандарт HTML должен быть использован для отображения страницы.
+
+Это объявление обязательно должно находиться в начале HTML-документа, перед тегом <html>, и сообщает браузеру, что страница будет отображаться в соответствии со стандартом HTML5.
+
+Указание <!DOCTYPE html> помогает браузеру правильно интерпретировать HTML-код на странице, что может помочь избежать ошибок отображения и обеспечить более совместимый и предсказуемый опыт для пользователей веб-сайта. -->
+
+<!DOCTYPE html>
+<html>
+<head> 
+  <title>Open Bible Stories</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    html {
+      background-color: #f7f7f7;
+    }
+
+    body {
+      font-family: 'apple-system', 'Segoe UI', 'system-ui', 'Roboto', 'Helvetica Neue', Arial;  
+      /* Этот список шрифтов представляет собой набор альтернативных шрифтов, которые могут быть использованы в качестве замены, если первый шрифт в списке не доступен на устройстве пользователя. */
+      color: #023047;
+      text-align: center;
+      /* padding: 32px; */
+      padding: 2rem;  /* 32px = 2rem */
+      margin: 3rem 6rem;
+      background-color: white;
+      border-radius: 0.6rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      /* text-transform: uppercase; */
+      padding-bottom: 0.6rem;
+      /* margin-top: 0; // вместо сброса стилей по умолчанию, необходимо использовать reset.css */
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #dedede;
+    }
+    
+    img {
+      margin-bottom: 1rem;
+      border-radius: 1.2rem;
+      width: 80%;
+    }
+  </style>
+</head>
+<body>
+  <h1>Иисус накормил пять тысяч человек</h1>
+  <img src="https://cdn.door43.org/obs/jpg/360px/obs-en-30-07.jpg" alt="image verse 1" style="box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);"/>
+  <p style="width: 80%; margin: 0 auto; text-align: justify">Это история из Библии, когда Иисус ходил по земле и учил народ. Однажды множество людей последовали за ним, чтобы услышать его учение и увидеть его чудеса. Но люди не имели с собой еды, и Иисус взял всего пять хлебов и две рыбы, благословил их и раздал всем народу. И вся толпа наелась и еще остались остатки. Эта история символизирует милость Иисуса и его способность удовлетворять потребности людей в буквальном и духовном плане.</p>
+
+  <!-- без js мы не откроем сслыку, используя <button> -->
+  <!-- <button style="margin-top: 32px;">Читать полностью</button> -->
+
+  <a href="https://git.door43.org/ru_gl/ru_obs/src/commit/e562a415f60c5262382ba936928f32479056310e/content/30.md" class="my-button" target="_blank">Читать полностью</a>
+</body>
+</html>	
